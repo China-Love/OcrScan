@@ -9,12 +9,12 @@
     [OCR StartInit];
 ```
 ##集成注意点
-<img src=".⁨⁨⁩/OCRImage⁩/3.png"  width="42" height="42">
+<img src=".⁩/OCRImage/IMG_5469.PNG"  width="42" height="42">
 ![](./OCRImage⁩/1.png)
 ![](./OCRImage/3.png)
 ##Demo功能如下图
 ![w440](/OCRImage/1.png)
-![w440](./OcrScan⁩/OCRImage/IMG_5469.PNG)
+![w440](.⁩/OCRImage/IMG_5469.PNG)
 ![w440](./OCRImage/IMG_5470.PNG)
 ![w440](./OCRImage/IMG_5471.PNG)
 
