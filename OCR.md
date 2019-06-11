@@ -6,14 +6,15 @@
     // 在AppDelegate里 导入OCR.h 并初始化OCR
     [OCR StartInit];
 ```
-##集成注意点
-![avatar](/Users/fancheng/Desktop/1.png)
-![avatar](/Users/fancheng/Desktop/3.png)
+##集成注意点/Users/fancheng/OcrScan/OCRImage/2.png
+
+![avatar](./OCRImage/1.png)
+![avatar](./OCRImage/3.png)
 ##Demo功能如下图
-![set up-w440](/Users/fancheng/Desktop/OCRImage/1.png)
-![set up-w440](/Users/fancheng/Desktop/OCRImage/IMG_5469.PNG)
-![set up-w440](/Users/fancheng/Desktop/OCRImage/IMG_5470.PNG)
-![set up-w440](/Users/fancheng/Desktop/OCRImage/IMG_5471.PNG)
+![set up-w440](./OCRImage/2.png)
+![set up-w440](./OCRImage/IMG_5469.PNG)
+![set up-w440](./OCRImage/IMG_5470.PNG)
+![set up-w440](./OCRImage/IMG_5471.PNG)
 
 ##如有疑问请联系
 $\color{green}{QQ}{ : 820649600}$
