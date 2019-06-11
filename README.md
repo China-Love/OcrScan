@@ -1,5 +1,3 @@
-# OcrScan
-身份证、银行卡、驾驶证OCR扫描
 #OCR扫描
 ##github下载地址
 <https://github.com/China-Love/OcrScan>
