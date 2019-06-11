@@ -7,8 +7,8 @@
     [OCR StartInit];
 ```
 ##集成注意点
-![avatar](‎⁨⁨/OcrScan⁩/OCRImage⁩/1.png)
-![avatar](./OCRImage/3.png)
+![](‎⁨⁨/OcrScan⁩/OCRImage⁩/1.png)
+![](./OCRImage/3.png)
 ##Demo功能如下图
 ![w440](/OCRImage/1.png)
 ![set up-w440](./OcrScan⁩/OCRImage/IMG_5469.PNG)
