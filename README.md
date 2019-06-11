@@ -11,12 +11,16 @@ $\color{green}{QQ}{ : 820649600}$
 ```
 ##集成注意点
 ![](./OCRImage⁩/1.png)
+
 ![](./OCRImage/3.png)
 ##Demo功能如下图
-![w440](/OCRImage/1.png)
-![w440](.⁩/OCRImage/IMG_5469.PNG)
-![w440](./OCRImage/IMG_5470.PNG)
-![w440](./OCRImage/IMG_5471.PNG)
+![](/OCRImage/1.png)
+
+![](.⁩/OCRImage/IMG_5469.PNG)
+
+![](./OCRImage/IMG_5470.PNG)
+
+![](./OCRImage/IMG_5471.PNG)
 
 
 
