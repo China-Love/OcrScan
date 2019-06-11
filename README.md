@@ -9,6 +9,7 @@
     [OCR StartInit];
 ```
 ##集成注意点
+<img src="‎⁨⁨⁩/OCRImage⁩/1.png" alt="Smiley face" width="42" height="42">
 ![](‎⁨⁨⁩/OCRImage⁩/1.png)
 ![](./OCRImage/3.png)
 ##Demo功能如下图
