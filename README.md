@@ -10,18 +10,17 @@ $\color{green}{QQ}{ : 820649600}$
     [OCR StartInit];
 ```
 ##集成注意点
-![](./OCRImage⁩/1.png)
-
-![](./OCRImage/3.png)
+<img src="https://github.com/China-Love/OcrScan/blob/master/OCRImage/1.png"  width="400" >
+<img src="https://github.com/China-Love/OcrScan/blob/master/OCRImage/3.png"  width="400" >
 ##Demo功能如下图
-![](/OCRImage/1.png)
 
-![](.⁩/OCRImage/IMG_5469.PNG)
+<img src="https://github.com/China-Love/OcrScan/blob/master/OCRImage/2.png"  width="400" >
 
-![](./OCRImage/IMG_5470.PNG)
+<img src="https://github.com/China-Love/OcrScan/blob/master/OCRImage/IMG_5469.png"  width="400" >
 
-![](./OCRImage/IMG_5471.PNG)
+<img src="https://github.com/China-Love/OcrScan/blob/master/OCRImage/IMG_5470.png"  width="400" >
 
+<img src="https://github.com/China-Love/OcrScan/blob/master/OCRImage/IMG_5471.png"  width="400" >
 
 
 
