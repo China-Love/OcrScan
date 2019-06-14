@@ -96,6 +96,8 @@
     resultLab.numberOfLines=0;
     [self.view addSubview:resultLab];
     self.resultLab=resultLab;
+    
+    [OCR StartInit]; // 非demo不需要在此注册再次初始化
 
 }
 

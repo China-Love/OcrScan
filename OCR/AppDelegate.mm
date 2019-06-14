@@ -8,6 +8,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "OCR.h"
+
 @interface AppDelegate ()
 
 @end
@@ -23,7 +24,8 @@
     
     // 初始化OCR
     [OCR StartInit];
-    
+
+  
     return YES;
 }
 

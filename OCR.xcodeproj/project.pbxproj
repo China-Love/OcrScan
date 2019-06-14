@@ -48,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B32F90922B39C070001EBC9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		3BFF87A422A7C589000C109E /* OCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFF87AE22A7C589000C109E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BFF87B022A7C58B000C109E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -121,6 +122,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B32F90822B39C060001EBC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B32F90922B39C070001EBC9 /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3BFF879B22A7C589000C109E = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +137,7 @@
 				3BFF87BF22A7C58B000C109E /* OCRTests */,
 				3BFF87CA22A7C58B000C109E /* OCRUITests */,
 				3BFF87A522A7C589000C109E /* Products */,
+				3B32F90822B39C060001EBC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,12 +190,12 @@
 		3BFF87DF22A7C5C0000C109E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3BFF87E022A7C5C0000C109E /* IDCardController.m */,
 				3BFF87E122A7C5C0000C109E /* DrivingLicenceController.h */,
-				3BFF87E222A7C5C0000C109E /* BankCardController.m */,
-				3BFF87E322A7C5C0000C109E /* IDCardController.h */,
 				3BFF87E422A7C5C0000C109E /* DrivingLicenceController.m */,
 				3BFF87E522A7C5C0000C109E /* BankCardController.h */,
+				3BFF87E222A7C5C0000C109E /* BankCardController.m */,
+				3BFF87E322A7C5C0000C109E /* IDCardController.h */,
+				3BFF87E022A7C5C0000C109E /* IDCardController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
