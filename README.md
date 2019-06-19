@@ -1,6 +1,6 @@
 <h1>OCR扫描</h1>
 <h2>如有疑问请联系</h2>
-<strong>此Demo仅为体验版 如需 Android+IOS全套 QQ:820649600</strong>
+<strong>如需 Android+IOS全套 QQ:820649600</strong>
 <h2>初始化</h2>
    <strong>请在真机下运行 在AppDelegate里 导入OCR.h 并初始化OCR</strong>
    <code> 
