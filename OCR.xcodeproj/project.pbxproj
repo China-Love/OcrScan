@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BADC514231CE4C900ABEC09 /* libOcrLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BADC513231CE4C900ABEC09 /* libOcrLib.a */; };
 		3BFF87AF22A7C589000C109E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF87AD22A7C589000C109E /* Main.storyboard */; };
 		3BFF87B122A7C58B000C109E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF87B022A7C58B000C109E /* Assets.xcassets */; };
 		3BFF87B422A7C58B000C109E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF87B222A7C58B000C109E /* LaunchScreen.storyboard */; };
@@ -22,7 +23,6 @@
 		3BFF880622A7C5CA000C109E /* ShowResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF87EF22A7C5CA000C109E /* ShowResultView.m */; };
 		3BFF880722A7C5CA000C109E /* NSAttributedString+CC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF87F122A7C5CA000C109E /* NSAttributedString+CC.m */; };
 		3BFF880822A7C5CA000C109E /* BCameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF87F222A7C5CA000C109E /* BCameraViewController.mm */; };
-		3BFF880922A7C5CA000C109E /* libOcrLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFF87F822A7C5CA000C109E /* libOcrLib.a */; };
 		3BFF880A22A7C5CA000C109E /* CameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF87F922A7C5CA000C109E /* CameraViewController.mm */; };
 		3BFF880B22A7C5CA000C109E /* UKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF87FB22A7C5CA000C109E /* UKImage.m */; };
 		3BFF880C22A7C5CA000C109E /* HPLCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF87FC22A7C5CA000C109E /* HPLCardModel.m */; };
@@ -49,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		3B32F90922B39C070001EBC9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3BADC513231CE4C900ABEC09 /* libOcrLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOcrLib.a; sourceTree = "<group>"; };
 		3BFF87A422A7C589000C109E /* OCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFF87AE22A7C589000C109E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BFF87B022A7C58B000C109E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,7 +82,6 @@
 		3BFF87F322A7C5CA000C109E /* BCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCameraViewController.h; sourceTree = "<group>"; };
 		3BFF87F522A7C5CA000C109E /* YMIDCardEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMIDCardEngine.h; sourceTree = "<group>"; };
 		3BFF87F622A7C5CA000C109E /* OCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCR.h; sourceTree = "<group>"; };
-		3BFF87F822A7C5CA000C109E /* libOcrLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOcrLib.a; sourceTree = "<group>"; };
 		3BFF87F922A7C5CA000C109E /* CameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CameraViewController.mm; sourceTree = "<group>"; };
 		3BFF87FA22A7C5CA000C109E /* CameraDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraDrawView.h; sourceTree = "<group>"; };
 		3BFF87FB22A7C5CA000C109E /* UKImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKImage.m; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BFF880922A7C5CA000C109E /* libOcrLib.a in Frameworks */,
+				3BADC514231CE4C900ABEC09 /* libOcrLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +245,7 @@
 		3BFF87F722A7C5CA000C109E /* IDCardEngine */ = {
 			isa = PBXGroup;
 			children = (
-				3BFF87F822A7C5CA000C109E /* libOcrLib.a */,
+				3BADC513231CE4C900ABEC09 /* libOcrLib.a */,
 				3BFF87F922A7C5CA000C109E /* CameraViewController.mm */,
 				3BFF87FA22A7C5CA000C109E /* CameraDrawView.h */,
 				3BFF87FB22A7C5CA000C109E /* UKImage.m */,
