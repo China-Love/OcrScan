@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BADC514231CE4C900ABEC09 /* libOcrLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BADC513231CE4C900ABEC09 /* libOcrLib.a */; };
+		3B4CE13F231E56E1003088FE /* libOcrLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4CE13E231E56E1003088FE /* libOcrLib.a */; };
 		3BFF87AF22A7C589000C109E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF87AD22A7C589000C109E /* Main.storyboard */; };
 		3BFF87B122A7C58B000C109E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF87B022A7C58B000C109E /* Assets.xcassets */; };
 		3BFF87B422A7C58B000C109E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF87B222A7C58B000C109E /* LaunchScreen.storyboard */; };
@@ -49,7 +49,7 @@
 
 /* Begin PBXFileReference section */
 		3B32F90922B39C070001EBC9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		3BADC513231CE4C900ABEC09 /* libOcrLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOcrLib.a; sourceTree = "<group>"; };
+		3B4CE13E231E56E1003088FE /* libOcrLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOcrLib.a; sourceTree = "<group>"; };
 		3BFF87A422A7C589000C109E /* OCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFF87AE22A7C589000C109E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BFF87B022A7C58B000C109E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BADC514231CE4C900ABEC09 /* libOcrLib.a in Frameworks */,
+				3B4CE13F231E56E1003088FE /* libOcrLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +245,7 @@
 		3BFF87F722A7C5CA000C109E /* IDCardEngine */ = {
 			isa = PBXGroup;
 			children = (
-				3BADC513231CE4C900ABEC09 /* libOcrLib.a */,
+				3B4CE13E231E56E1003088FE /* libOcrLib.a */,
 				3BFF87F922A7C5CA000C109E /* CameraViewController.mm */,
 				3BFF87FA22A7C5CA000C109E /* CameraDrawView.h */,
 				3BFF87FB22A7C5CA000C109E /* UKImage.m */,
