@@ -5,6 +5,7 @@
 //  Created by  on 14-04-16.
 //  Copyright (c) 2011年 __MyCompanyName__. All rights reserved.
 //
+//  若有疑问请联系 QQ 820649600
 
 #import <Foundation/Foundation.h>
 #import "libCommon.h"

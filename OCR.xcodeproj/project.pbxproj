@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B4CE13F231E56E1003088FE /* libOcrLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4CE13E231E56E1003088FE /* libOcrLib.a */; };
+		3BED3E672582042A00B3BF15 /* libOcrLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BED3E662582042A00B3BF15 /* libOcrLib.a */; };
 		3BFF87AF22A7C589000C109E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF87AD22A7C589000C109E /* Main.storyboard */; };
 		3BFF87B122A7C58B000C109E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF87B022A7C58B000C109E /* Assets.xcassets */; };
 		3BFF87B422A7C58B000C109E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF87B222A7C58B000C109E /* LaunchScreen.storyboard */; };
@@ -49,7 +49,7 @@
 
 /* Begin PBXFileReference section */
 		3B32F90922B39C070001EBC9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		3B4CE13E231E56E1003088FE /* libOcrLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOcrLib.a; sourceTree = "<group>"; };
+		3BED3E662582042A00B3BF15 /* libOcrLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOcrLib.a; sourceTree = "<group>"; };
 		3BFF87A422A7C589000C109E /* OCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFF87AE22A7C589000C109E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BFF87B022A7C58B000C109E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B4CE13F231E56E1003088FE /* libOcrLib.a in Frameworks */,
+				3BED3E672582042A00B3BF15 /* libOcrLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +203,8 @@
 		3BFF87E922A7C5CA000C109E /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				3BFF87F622A7C5CA000C109E /* OCR.h */,
+				3BFF87F522A7C5CA000C109E /* YMIDCardEngine.h */,
 				3BFF87EA22A7C5CA000C109E /* DriveLicense */,
 				3BFF87ED22A7C5CA000C109E /* SBankCard */,
 				3BFF87F422A7C5CA000C109E /* SIDCard */,
@@ -235,8 +237,6 @@
 		3BFF87F422A7C5CA000C109E /* SIDCard */ = {
 			isa = PBXGroup;
 			children = (
-				3BFF87F522A7C5CA000C109E /* YMIDCardEngine.h */,
-				3BFF87F622A7C5CA000C109E /* OCR.h */,
 				3BFF87F722A7C5CA000C109E /* IDCardEngine */,
 			);
 			path = SIDCard;
@@ -245,19 +245,19 @@
 		3BFF87F722A7C5CA000C109E /* IDCardEngine */ = {
 			isa = PBXGroup;
 			children = (
-				3B4CE13E231E56E1003088FE /* libOcrLib.a */,
+				3BED3E662582042A00B3BF15 /* libOcrLib.a */,
+				3BFF87FD22A7C5CA000C109E /* YMLine.h */,
+				3BFF880322A7C5CA000C109E /* libCommon.h */,
+				3BFF880122A7C5CA000C109E /* UKImage.h */,
+				3BFF87FB22A7C5CA000C109E /* UKImage.m */,
+				3BFF880422A7C5CA000C109E /* UIViewExt.h */,
+				3BFF87FE22A7C5CA000C109E /* UIViewExt.m */,
+				3BFF880022A7C5CA000C109E /* HPLCardModel.h */,
+				3BFF87FC22A7C5CA000C109E /* HPLCardModel.m */,
+				3BFF87FF22A7C5CA000C109E /* CameraViewController.h */,
 				3BFF87F922A7C5CA000C109E /* CameraViewController.mm */,
 				3BFF87FA22A7C5CA000C109E /* CameraDrawView.h */,
-				3BFF87FB22A7C5CA000C109E /* UKImage.m */,
-				3BFF87FC22A7C5CA000C109E /* HPLCardModel.m */,
-				3BFF87FD22A7C5CA000C109E /* YMLine.h */,
-				3BFF87FE22A7C5CA000C109E /* UIViewExt.m */,
-				3BFF87FF22A7C5CA000C109E /* CameraViewController.h */,
-				3BFF880022A7C5CA000C109E /* HPLCardModel.h */,
-				3BFF880122A7C5CA000C109E /* UKImage.h */,
 				3BFF880222A7C5CA000C109E /* CameraDrawView.m */,
-				3BFF880322A7C5CA000C109E /* libCommon.h */,
-				3BFF880422A7C5CA000C109E /* UIViewExt.h */,
 			);
 			path = IDCardEngine;
 			sourceTree = "<group>";
@@ -577,7 +577,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2VRQMS6TMZ;
+				DEVELOPMENT_TEAM = ZGDM2669GU;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = OCR/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -588,8 +588,9 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/OCR/Lib/SIDCard/IDCardEngine",
+					"$(PROJECT_DIR)/OCR/Lib/SIDCard",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ocr.www;
+				PRODUCT_BUNDLE_IDENTIFIER = yewm.lil.wee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -600,7 +601,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2VRQMS6TMZ;
+				DEVELOPMENT_TEAM = ZGDM2669GU;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = OCR/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -611,8 +612,9 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/OCR/Lib/SIDCard/IDCardEngine",
+					"$(PROJECT_DIR)/OCR/Lib/SIDCard",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ocr.www;
+				PRODUCT_BUNDLE_IDENTIFIER = yewm.lil.wee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

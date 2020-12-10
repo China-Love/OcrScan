@@ -3,7 +3,8 @@
 //  OCR
 //
 //  Created by Who on 2019/6/4.
-//
+
+//  若有疑问请联系 QQ 820649600
 
 #import "YMIDCardEngine.h"
 #import <UIKit/UIKit.h>
