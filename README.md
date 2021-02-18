@@ -8,7 +8,12 @@
         [OCR StartInit]; 
    </code> 
 <h2>集成注意点</h2>
-
+<img src="https://chinafanfan.cn/images/OCRImage/1.png" width=300px >
+<img src="https://chinafanfan.cn/images/OCRImage/3.png" width=300px >
+<h2>Demo功能如下图</h2>
+<img src="https://chinafanfan.cn/images/OCRImage/2.png"  width=300px>
+<img src="https://chinafanfan.cn/images/OCRImage/IMG_5469.png"  width=300px>
+<img src="https://chinafanfan.cn/images/OCRImage/IMG_5470.png"   width=300px>
 <img src="https://chinafanfan.cn/images/OCRImage/IMG_5471.png"   width=300px>
 
 
